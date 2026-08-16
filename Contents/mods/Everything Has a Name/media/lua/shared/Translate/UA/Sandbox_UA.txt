@@ -1,0 +1,5 @@
+Sandbox_UA = {
+	Sandbox_RenameEverything_RenameOptions = "Параметри перейменування предметів"
+	Sandbox_RenameEverything_OnlyAdminCanRename = "Тільки адміністратори можуть перейменовувати предмети"
+	Sandbox_RenameEverything_OnlyAdminCanRename_tooltip = "Обмежує перейменування предметів для адміністраторів у багатокористувацькій грі. Залиште без змін для одиночної гри."
+}

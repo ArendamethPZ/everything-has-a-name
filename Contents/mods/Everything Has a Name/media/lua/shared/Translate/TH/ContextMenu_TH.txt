@@ -1,0 +1,4 @@
+ContextMenu_TH = {
+    ContextMenu_renameButton = "เปลี่ยนชื่อ",
+    ContextMenu_label_items = "เปลี่ยนชื่อรายการ",
+}

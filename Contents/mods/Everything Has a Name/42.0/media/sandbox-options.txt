@@ -1,0 +1,43 @@
+VERSION = 1,
+
+option EverythingHasAName.OnlyAdminCanRenameItems
+{
+    type = boolean, default = false,
+    page = RenameEverything_RenameOptions,
+    translation = RenameEverything_OnlyAdminCanRenameItems,
+}
+
+option EverythingHasAName.OnlyAdminCanRenameVehicles
+{
+    type = boolean, default = false,
+    page = RenameEverything_RenameOptions,
+    translation = RenameEverything_OnlyAdminCanRenameVehicles,
+}
+
+option EverythingHasAName.MustHaveKeys
+{
+    type = boolean, default = false,
+    page = RenameEverything_RenameOptions,
+    translation = RenameEverything_MustHaveKeys,
+}
+
+option EverythingHasAName.CanRenameContainers
+{
+    type = boolean, default = true,
+    page = RenameEverything_RenameOptions,
+    translation = RenameEverything_CanRenameContainers,
+}
+
+option EverythingHasAName.CanRenameVehicles
+{
+    type = boolean, default = true,
+    page = RenameEverything_RenameOptions,
+    translation = RenameEverything_CanRenameVehicles,
+}
+
+option EverythingHasAName.CanRenameItems
+{
+    type = boolean, default = true,
+    page = RenameEverything_RenameOptions,
+    translation = RenameEverything_CanRenameItems,
+}

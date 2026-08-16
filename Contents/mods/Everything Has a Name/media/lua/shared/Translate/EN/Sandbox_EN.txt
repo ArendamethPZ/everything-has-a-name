@@ -1,0 +1,11 @@
+Sandbox_EN = {
+	Sandbox_RenameEverything_RenameOptions = "Items Renaming Options"
+
+	Sandbox_RenameEverything_OnlyAdminCanRenameItems = "Only admins can rename items"
+	Sandbox_RenameEverything_OnlyAdminCanRenameVehicles = "Only admins can rename vehicles"
+	Sandbox_RenameEverything_MustHaveKeys = "Keys needed to rename vehicles"
+
+	Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip = "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip = "Restricts renaming vehicles to admins in multiplayer. Leave unchanged for singleplayer."
+	Sandbox_RenameEverything_MustHaveKeys_tooltip = "Players will be able to rename vehicles only if they have the keys for it or if the keys are in ignition. Works only in multiplayer."
+}

@@ -1,0 +1,4 @@
+ContextMenu_UA = {
+    ContextMenu_renameButton = "Перейменувати",
+    ContextMenu_label_items = "Змінити назву елемента",
+}

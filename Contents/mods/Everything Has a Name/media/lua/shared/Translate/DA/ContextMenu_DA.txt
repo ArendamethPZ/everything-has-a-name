@@ -1,0 +1,4 @@
+ContextMenu_DA = {
+    ContextMenu_renameButton = "Omdøb",
+    ContextMenu_label_items = "Skift varenavn",
+}

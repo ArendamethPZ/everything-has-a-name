@@ -1,0 +1,7 @@
+ContextMenu_ES = {
+	ContextMenu_renameButton = "Renombrar",
+	ContextMenu_label_items = "Cambiar el nombre del objeto",
+	ContextMenu_label_vehicles = "Cambiar el nombre del vehículo",
+	ContextMenu_unnamed = "Vehículo sin nombre",
+	ContextMenu_clickToRename = "Click para renombrar",
+}

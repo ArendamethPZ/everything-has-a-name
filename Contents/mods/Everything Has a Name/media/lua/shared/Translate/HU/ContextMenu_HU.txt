@@ -1,0 +1,4 @@
+ContextMenu_HU = {
+    ContextMenu_renameButton = "Átnevezés",
+    ContextMenu_label_items = "Az elem nevének módosítása",
+}

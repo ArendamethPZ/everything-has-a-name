@@ -1,0 +1,4 @@
+ContextMenu_ID = {
+    ContextMenu_renameButton = "Ganti nama",
+    ContextMenu_label_items = "Ubah Nama Barang",
+}

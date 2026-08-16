@@ -1,0 +1,11 @@
+Sandbox_RU = {
+	Sandbox_RenameEverything_RenameOptions = "Параметры переименовывания предметов"
+
+	Sandbox_RenameEverything_OnlyAdminCanRenameItems = "Только администраторы могут переименовывать предметы"
+	Sandbox_RenameEverything_OnlyAdminCanRenameVehicles = "Только администраторы могут переименовывать автомобили"
+	Sandbox_RenameEverything_MustHaveKeys = "Для переименовывания автомобиля необходимы ключи"
+
+	Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip = "Разрешает переименовывать предметы только администраторам. Не изменяйте для одиночной игры."
+	Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip = "Разрешает переименовывать автомобили только администраторам. Не изменяйте для одиночной игры."
+	Sandbox_RenameEverything_MustHaveKeys_tooltip = "Игроки смогут переименовывать автомобили только если у них есть ключи от него или если ключи находятся в замке зажигания. Работает только в сетевой игре."
+}

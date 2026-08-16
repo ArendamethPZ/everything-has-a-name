@@ -1,0 +1,5 @@
+Sandbox_CN = {
+	Sandbox_RenameEverything_RenameOptions = "Items Renaming Options"
+	Sandbox_RenameEverything_OnlyAdminCanRename = "Only admins can rename items"
+	Sandbox_RenameEverything_OnlyAdminCanRename_tooltip = "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+}

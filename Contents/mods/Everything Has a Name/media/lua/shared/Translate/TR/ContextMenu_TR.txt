@@ -1,0 +1,4 @@
+ContextMenu_TR = {
+    ContextMenu_renameButton = "Yeniden isimlendirmek",
+    ContextMenu_label_items = "Öğe Adını Değiştir",
+}

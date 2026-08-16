@@ -1,0 +1,4 @@
+ContextMenu_FR = {
+    ContextMenu_renameButton = "Renommer",
+    ContextMenu_label_items = "Modifier le nom de l'élément",
+}

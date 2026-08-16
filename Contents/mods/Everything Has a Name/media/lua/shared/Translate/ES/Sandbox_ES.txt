@@ -1,0 +1,11 @@
+Sandbox_ES = {
+	Sandbox_RenameEverything_RenameOptions = "Opciones de renombrado de objetos"
+
+	Sandbox_RenameEverything_OnlyAdminCanRenameItems = "Solo adminstradores pueden renombrar objetos"
+	Sandbox_RenameEverything_OnlyAdminCanRenameVehicles = "Solo adminstradores pueden renombrar vehículos"
+	Sandbox_RenameEverything_MustHaveKeys = "Llaves necesarias para renombrar vehículos"
+
+	Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip = "Restringe el renombrado de objetos a adminstradores en multijugador. Dejar sin cambios para jugar solo."
+	Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip = "Restringe el renombrado de vehículos a adminstradores en multijugador. Dejar sin cambios para jugar solo."
+	Sandbox_RenameEverything_MustHaveKeys_tooltip = "Jugadores solo podrán renombrar vehículos si tienen las llaves o si están puestas las llaves. Funciona solo en multijugador."
+}

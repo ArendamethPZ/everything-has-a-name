@@ -1,0 +1,7 @@
+﻿ContextMenu_PL = {
+	ContextMenu_renameButton = "Zmien nazwe",
+	ContextMenu_label_items = "Zmien nazwe przedmiotu",
+    ContextMenu_label_vehicles = "Zmien nazwe pojazdu",
+	ContextMenu_unnamed = "Pojazd bez nazwy",
+    ContextMenu_clickToRename = "Kliknij by zmienic nazwe",
+}

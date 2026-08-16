@@ -1,0 +1,4 @@
+ContextMenu_AR = {
+	ContextMenu_renameButton = "Rebautizar",
+	ContextMenu_label_items = "Cambiar el nombre del artículo",
+}

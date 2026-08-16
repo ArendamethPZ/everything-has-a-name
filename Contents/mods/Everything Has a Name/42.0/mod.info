@@ -1,0 +1,8 @@
+name=Everything Has a Name
+poster=poster.png
+id=EverythingHasAName
+description=<PUSHRGB:1,1,1> <H1> <CENTRE> Feeling lonely amidst the outbreak? </CENTRE> </H1> <BR> <TEXT> <LEFT> <SIZE:medium> <PUSHRGB:1,1,1> Now you can rename containers, items, and vehicles to keep organized or create quirky companions! </SIZE:medium> </TEXT> <LINE> <PUSHRGB:0,128,0> <TEXT> Make every item your buddy. </TEXT> <POPRGB>
+author=Arendameth
+modversion=1.0.0
+versionMin=42.0
+icon=icon.png

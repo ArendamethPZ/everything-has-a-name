@@ -1,0 +1,4 @@
+ContextMenu_PTBR = {
+    ContextMenu_renameButton = "Renomear",
+    ContextMenu_label = "Alterar nome o item",
+}

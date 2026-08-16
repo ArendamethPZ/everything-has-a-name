@@ -1,0 +1,4 @@
+ContextMenu_JP = {
+    ContextMenu_renameButton = "名前を変更",
+    ContextMenu_label_items = "アイテム名の変更",
+}

@@ -1,0 +1,11 @@
+Sandbox_PL = {
+	Sandbox_RenameEverything_RenameOptions = "Opcjê zmiany nazw przedmiotów"
+
+	Sandbox_RenameEverything_OnlyAdminCanRenameItems = "Tylko admini mog¹ zmieniaæ nazwy przedmiotów"
+	Sandbox_RenameEverything_OnlyAdminCanRenameVehicles = "Tylko admini mog¹ zmieniaæ nazwy pojazdów"
+	Sandbox_RenameEverything_MustHaveKeys = "By zmieniæ nazwê pojazdu, potrzêbne s¹ kluczê"
+
+	Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip = "Sprawia, ¿e tylko admini mog¹ zmieniaæ nazwy przedmiotów w trybie multiplayer. Nie zmeniaj, jeœli grasz w trybie singleplayer."
+	Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip = "Sprawia, ¿e tylko admini mog¹ zmieniaæ nazwy pojazdów w trybie multiplayer. Nie zmeniaj, jeœli grasz w trybie singleplayer."
+	Sandbox_RenameEverything_MustHaveKeys_tooltip = "Graczê mog¹ zmieniaæ nazwy pojazdów, jeœli maj¹ kluczê, albo klucz jest w stacyjce. Dzia³a tylko w trybie multiplayer."
+}

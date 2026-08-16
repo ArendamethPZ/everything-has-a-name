@@ -1,0 +1,4 @@
+ContextMenu_PT = {
+    ContextMenu_renameButton = "Renomear",
+    ContextMenu_label = "Alterar nome do item",
+}

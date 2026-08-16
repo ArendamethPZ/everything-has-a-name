@@ -1,0 +1,4 @@
+ContextMenu_CN = {
+	ContextMenu_renameButton = "改名",
+	ContextMenu_label_items = "更改项目名称",
+}

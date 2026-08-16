@@ -1,0 +1,4 @@
+ContextMenu_CS = {
+    ContextMenu_renameButton = "Přejmenovat",
+    ContextMenu_label_items = "Změnit název položky",
+}

@@ -1,0 +1,4 @@
+ContextMenu_PH = {
+    ContextMenu_renameButton = "Palitan ang pangalan",
+    ContextMenu_label_items = "Baguhin ang Pangalan ng Item",
+}

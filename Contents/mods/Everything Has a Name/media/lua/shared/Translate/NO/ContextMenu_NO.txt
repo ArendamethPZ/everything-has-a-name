@@ -1,0 +1,4 @@
+ContextMenu_NO = {
+    ContextMenu_renameButton = "Gi nytt navn",
+    ContextMenu_label_items = "Endre varenavn",
+}

@@ -1,0 +1,4 @@
+ContextMenu_NL = {
+    ContextMenu_renameButton = "Hernoemen",
+    ContextMenu_label_items = "Itemnaam wijzigen",
+}

@@ -1,0 +1,4 @@
+ContextMenu_CA = {
+	ContextMenu_renameButton = "Canvia el nom",
+	ContextMenu_label_items = "Canvia el nom de l'element",
+}
