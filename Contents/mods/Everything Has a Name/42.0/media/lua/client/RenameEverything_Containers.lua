@@ -85,16 +85,9 @@ function ISInventoryPage:createChildren()
             drawRenameBtn(self, btn, renameBtnCleanUIIcon, false)
         end
         self:addChild(self.renameBtn)
-        -- Layout/visibility for renameBtn is handled entirely by the
-        -- updateCleanUITransferButtonLayout hook attached below.
         return
     end
 
-    -- Non-CleanUI: cache the titlebar background texture used for the custom title strip
-    -- self.titlebarbkg = NinePatchTexture.getSharedTexture("media/ui/CUI_TitleBarBG.png")
-    --     or NinePatchTexture.getSharedTexture("media/ui/PanelBG.png")
-
-    -- Create a button to rename the container
     local weightWid = math.max(90, getTextManager():MeasureStringX(UIFont.Small, "99.99 / 99") + 10)
     self.titleButton = ISButton:new(
         self.width - 20 - weightWid, 0, 0, self:titleBarHeight(), "", self, ISInventoryPage.OnRenameContainer
@@ -109,9 +102,6 @@ function ISInventoryPage:createChildren()
 end
 
 function ISInventoryPage:prerender()
-    -- Apply the custom modData name to self.title before either CleanUI's or
-    -- vanilla's prerender draws it, since both just draw whatever self.title
-    -- currently holds rather than recomputing it from the container
     if canRenameContainer(self) then
         local modData = self.inventory:getParent():getModData()
         if modData.renameEverything_name and modData.renameEverything_name ~= "" then
@@ -123,27 +113,35 @@ function ISInventoryPage:prerender()
         return _ISInventoryPage_prerender(self)
     end
 
-    -- call the original prerender function
     _ISInventoryPage_prerender(self)
 
-    -- check if the conditions for a custom title are still met
     if canRenameContainer(self) and self.title then
-        local weightWid = getTextManager():MeasureStringX(UIFont.Small, "99.99 / 99")
-        weightWid = math.max(90, weightWid + 10)
+        local weightWid = getTextManager():MeasureStringX(UIFont.Small, "9999.99 / 9999") + 30
 
         local fullTextWidth = findTitleWidth(self)
         local titleWidth = getTextManager():MeasureStringX(UIFont.Small, self.title)
-        local x = self.width - 35 - weightWid - fullTextWidth
 
-        -- if self.titlebarbkg then
-        --     self:drawTextureScaled(self.titlebarbkg, x, 1, titleWidth, self:titleBarHeight() - 2, 1, 1, 1, 1)
-        -- end
+        local textRightEdge = self.width - 20 - weightWid
+        local textLeftEdge = textRightEdge - fullTextWidth
 
-        self.titleButton:setVisible(true)
-        self.titleButton:setX(x)
-        self.titleButton:setTitle(self.title)
-        self.titleButton:setWidthToTitle()
-        self.titleButton:setWidth(self.titleButton:getWidth() - 8)
+        local btnX = textLeftEdge
+        local btnW = math.min(titleWidth, fullTextWidth)
+
+        local leftMargin = self.infoButton:getRight() + 4
+        if btnX < leftMargin then
+            btnW = btnW - (leftMargin - btnX)
+            btnX = leftMargin
+        end
+
+        if btnW > 0 then
+            self.titleButton:setVisible(true)
+            self.titleButton:setX(btnX)
+            self.titleButton:setY(0)
+            self.titleButton:setWidth(btnW)
+            self.titleButton:setTitle(self.title)
+        else
+            self.titleButton:setVisible(false)
+        end
     else
         self.titleButton:setVisible(false)
     end
