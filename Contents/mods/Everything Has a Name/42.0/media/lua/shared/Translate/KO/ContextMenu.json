@@ -1,0 +1,10 @@
+{
+	"ContextMenu_renameButton": "이름 바꾸기",
+	"ContextMenu_renameStackButton": "묶음 이름 바꾸기",
+	"ContextMenu_label_items": "아이템 이름 바꾸기",
+	"ContextMenu_label_containers": "컨테이너 이름 바꾸기",
+	"ContextMenu_label_vehicles": "차량 이름 바꾸기",
+	"ContextMenu_unnamed": "이름 없는 차량",
+	"ContextMenu_clickToRename": "눌러서 이름 바꾸기",
+	"ContextMenu_renameMainInventoryOnly": "멀티플레이에서는 메인 인벤토리에 있는 아이템만 이름을 바꿀 수 있습니다"
+}

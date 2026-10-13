@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Rebautizar",
- "ContextMenu_label_items": "Cambiar el nombre del artículo"
+	"ContextMenu_renameButton": "Rebautizar",
+	"ContextMenu_renameStackButton": "Rebautizar pila",
+	"ContextMenu_label_items": "Cambiar el nombre del artículo",
+	"ContextMenu_label_containers": "Cambiar el nombre del contenedor",
+	"ContextMenu_label_vehicles": "Cambiar el nombre del vehículo",
+	"ContextMenu_unnamed": "Vehículo sin nombre",
+	"ContextMenu_clickToRename": "Hacé clic para rebautizar",
+	"ContextMenu_renameMainInventoryOnly": "En multijugador, los artículos solo se pueden rebautizar mientras estén en el inventario principal"
 }

@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Opciones de renombrado",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Solo los administradores pueden renombrar artículos",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Restringe el renombrado de artículos a los administradores en multijugador. Dejar sin cambios en un solo jugador.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Solo los administradores pueden renombrar vehículos",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Restringe el renombrado de vehículos a los administradores en multijugador. Dejar sin cambios en un solo jugador.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Se necesitan llaves para renombrar vehículos",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Los jugadores solo podrán renombrar vehículos si tienen las llaves o si las llaves están en el encendido. Funciona solo en multijugador.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Contenedores renombrables",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Define si se pueden renombrar contenedores. Requiere reiniciar para que surta efecto.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Vehículos renombrables",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Define si se pueden renombrar vehículos. Requiere reiniciar para que surta efecto.",
+	"Sandbox_RenameEverything_CanRenameItems": "Artículos renombrables",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Define si se pueden renombrar artículos. Requiere reiniciar para que surta efecto."
 }

@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Nimeä uudelleen",
- "ContextMenu_label_items": "Muuta kohteen nimi"
+	"ContextMenu_renameButton": "Nimeä uudelleen",
+	"ContextMenu_renameStackButton": "Nimeä pino uudelleen",
+	"ContextMenu_label_items": "Muuta kohteen nimi",
+	"ContextMenu_label_containers": "Muuta säiliön nimi",
+	"ContextMenu_label_vehicles": "Muuta ajoneuvon nimi",
+	"ContextMenu_unnamed": "Nimetön ajoneuvo",
+	"ContextMenu_clickToRename": "Nimeä uudelleen klikkaamalla",
+	"ContextMenu_renameMainInventoryOnly": "Moninpelissä esineet voi nimetä uudelleen vain, kun ne ovat pääinventaariossa"
 }

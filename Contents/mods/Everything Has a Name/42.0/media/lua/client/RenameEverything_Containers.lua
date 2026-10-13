@@ -152,7 +152,7 @@ function ISInventoryPage:OnRenameContainer()
 
     -- create a modal dialog box with a text input field
     local modal = ISTextBox:new(
-        0, 0, 280, 180, getText("ContextMenu_label_containers"), self.title, nil, ISInventoryPage.onRenameContainerClick,
+        0, 0, 280, 180, getText("ContextMenu_label_containers"), self.title, nil, ISRenameEverything.onRenameContainerClick,
         self.player, self.inventory
     )
     modal:initialise()
@@ -161,14 +161,18 @@ function ISInventoryPage:OnRenameContainer()
     modal.entry:focus()
 end
 
-function ISInventoryPage:onRenameContainerClick(button, inventory)
+function ISRenameEverything:onRenameContainerClick(button, inventory)
     if button.internal == "OK" then
         -- Check if the textbox input is not empty
-        if button.parent.entry:getText() and button.parent.entry:getText() ~= "" then
+        local text = button.parent.entry:getText()
+        local parent = inventory and inventory:getParent()
+        if text and text ~= "" and parent and parent.getModData then
             -- Set the custom name for the container in the parent's mod data to the input text
-            inventory:getParent():getModData().renameEverything_name = button.parent.entry:getText()
+            parent:getModData().renameEverything_name = text
             -- Transmit the mod data to synchronize it for multiplayer
-            inventory:getParent():transmitModData()
+            if parent.transmitModData then
+                parent:transmitModData()
+            end
         end
     end
 end

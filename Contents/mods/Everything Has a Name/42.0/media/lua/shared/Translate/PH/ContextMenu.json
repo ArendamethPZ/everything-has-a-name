@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Palitan ang pangalan",
- "ContextMenu_label_items": "Baguhin ang Pangalan ng Item"
+	"ContextMenu_renameButton": "Palitan ang pangalan",
+	"ContextMenu_renameStackButton": "Palitan ang pangalan ng stack",
+	"ContextMenu_label_items": "Baguhin ang Pangalan ng Item",
+	"ContextMenu_label_containers": "Baguhin ang Pangalan ng Lalagyan",
+	"ContextMenu_label_vehicles": "Baguhin ang Pangalan ng Sasakyan",
+	"ContextMenu_unnamed": "Sasakyang Walang Pangalan",
+	"ContextMenu_clickToRename": "I-click para palitan ang pangalan",
+	"ContextMenu_renameMainInventoryOnly": "Sa multiplayer, mapapalitan lang ng pangalan ang mga item habang nasa pangunahing imbentaryo"
 }

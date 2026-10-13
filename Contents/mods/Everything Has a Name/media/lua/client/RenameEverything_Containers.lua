@@ -73,7 +73,7 @@ end
 function ISInventoryPage:OnRenameContainer()
     -- create a modal dialog box with a text input field
     local modal = ISTextBox:new(0, 0, 280, 180, getText("ContextMenu_label_containers"), self.title, nil,
-        ISInventoryPage.onRenameContainerClick, self.player, self.inventory)
+        ISRenameEverything.onRenameContainerClick, self.player, self.inventory)
     modal:initialise()
     modal:addToUIManager()
 
@@ -81,7 +81,7 @@ function ISInventoryPage:OnRenameContainer()
     modal.entry:focus()
 end
 
-function ISInventoryPage:onRenameContainerClick(button, inventory)
+function ISRenameEverything:onRenameContainerClick(button, inventory)
     -- Check if the OK button was clicked
     if button.internal == "OK" then
         -- Check if the textbox input is not empty

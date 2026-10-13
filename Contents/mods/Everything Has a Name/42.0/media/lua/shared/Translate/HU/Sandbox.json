@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Átnevezési beállítások",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Csak az adminok nevezhetik át a tárgyakat",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Többjátékos módban csak az adminokra korlátozza a tárgyak átnevezését. Egyjátékos módban hagyd változatlanul.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Csak az adminok nevezhetik át a járműveket",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Többjátékos módban csak az adminokra korlátozza a járművek átnevezését. Egyjátékos módban hagyd változatlanul.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Kulcs szükséges a járművek átnevezéséhez",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "A játékosok csak akkor nevezhetik át a járművet, ha náluk van a kulcs, vagy a kulcs a gyújtáskapcsolóban van. Csak többjátékos módban működik.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Átnevezhető tárolók",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Megadja, hogy a tárolók átnevezhetők-e. Újraindítás szükséges a hatályba lépéséhez.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Átnevezhető járművek",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Megadja, hogy a járművek átnevezhetők-e. Újraindítás szükséges a hatályba lépéséhez.",
+	"Sandbox_RenameEverything_CanRenameItems": "Átnevezhető tárgyak",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Megadja, hogy a tárgyak átnevezhetők-e. Újraindítás szükséges a hatályba lépéséhez."
 }

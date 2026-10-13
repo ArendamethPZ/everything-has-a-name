@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Eşyaları Yeniden Adlandırma Seçenekleri",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Eşyaları yalnızca adminler yeniden adlandırabilir",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Çok oyunculu modda eşyaları yeniden adlandırmayı adminlerle sınırlandırır. Tek oyunculu için değiştirmez.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Sadece adminler araçları yeniden adlandırabilir",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Çok oyunculu modda araçları yeniden adlandırmayı adminlerle sınırlandırır. Tek oyunculu için değiştirmez.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Araçları yeniden adlandırmak için anahtar gerekir",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Oyuncular araçları yalnızca anahtarları varsa veya anahtarlar kontaktaysa yeniden adlandırabilirler. Sadece çok oyunculu modda çalışır.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Yeniden Adlandırılabilir Depolar",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Depoların yeniden adlandırılıp adlandırılamayacağını belirler. Etkili olması için yeniden başlatma gerekir.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Yeniden Adlandırılabilir Araçlar",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Araçların yeniden adlandırılıp adlandırılamayacağını belirler. Etkili olması için yeniden başlatma gerekir.",
+	"Sandbox_RenameEverything_CanRenameItems": "Yeniden Adlandırılabilir Eşyalar",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Eşyaların yeniden adlandırılıp adlandırılamayacağını belirler. Etkili olması için yeniden başlatma gerekir."
 }

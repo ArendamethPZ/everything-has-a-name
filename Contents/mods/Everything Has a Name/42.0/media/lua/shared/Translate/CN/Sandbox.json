@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "改名选项",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "只有管理员可以为物品改名",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "在多人游戏中限制只有管理员可以为物品改名。单人游戏请保持不变。",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "只有管理员可以为载具改名",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "在多人游戏中限制只有管理员可以为载具改名。单人游戏请保持不变。",
+	"Sandbox_RenameEverything_MustHaveKeys": "为载具改名需要钥匙",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "玩家只有持有载具钥匙或钥匙插在点火开关上时才能为载具改名。仅适用于多人游戏。",
+	"Sandbox_RenameEverything_CanRenameContainers": "可为容器改名",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "是否允许为容器改名。需要重新启动才会生效。",
+	"Sandbox_RenameEverything_CanRenameVehicles": "可为载具改名",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "是否允许为载具改名。需要重新启动才会生效。",
+	"Sandbox_RenameEverything_CanRenameItems": "可为物品改名",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "是否允许为物品改名。需要重新启动才会生效。"
 }

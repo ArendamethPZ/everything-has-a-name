@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Přejmenovat",
- "ContextMenu_label_items": "Změnit název položky"
+	"ContextMenu_renameButton": "Přejmenovat",
+	"ContextMenu_renameStackButton": "Přejmenovat stoh",
+	"ContextMenu_label_items": "Změnit název položky",
+	"ContextMenu_label_containers": "Změnit název kontejneru",
+	"ContextMenu_label_vehicles": "Změnit název vozidla",
+	"ContextMenu_unnamed": "Nepojmenované vozidlo",
+	"ContextMenu_clickToRename": "Kliknutím přejmenujete",
+	"ContextMenu_renameMainInventoryOnly": "V multiplayeru lze předměty přejmenovat, jen když jsou v hlavním inventáři"
 }

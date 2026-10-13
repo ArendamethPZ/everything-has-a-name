@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Ganti nama",
- "ContextMenu_label_items": "Ubah Nama Barang"
+	"ContextMenu_renameButton": "Ganti nama",
+	"ContextMenu_renameStackButton": "Ganti nama tumpukan",
+	"ContextMenu_label_items": "Ubah Nama Barang",
+	"ContextMenu_label_containers": "Ubah Nama Wadah",
+	"ContextMenu_label_vehicles": "Ubah Nama Kendaraan",
+	"ContextMenu_unnamed": "Kendaraan Tanpa Nama",
+	"ContextMenu_clickToRename": "Klik untuk mengganti nama",
+	"ContextMenu_renameMainInventoryOnly": "Di multiplayer, barang hanya dapat diganti namanya saat berada di inventaris utama"
 }

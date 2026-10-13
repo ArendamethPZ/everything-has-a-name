@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Možnosti přejmenování",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Předměty mohou přejmenovat jen admini",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Omezí přejmenování předmětů na adminy v multiplayeru. Pro hru jednoho hráče nechte beze změny.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Vozidla mohou přejmenovat jen admini",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Omezí přejmenování vozidel na adminy v multiplayeru. Pro hru jednoho hráče nechte beze změny.",
+	"Sandbox_RenameEverything_MustHaveKeys": "K přejmenování vozidel jsou potřeba klíče",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Hráči mohou vozidla přejmenovat, jen pokud mají klíče od vozidla nebo jsou klíče v zapalování. Funguje pouze v multiplayeru.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Přejmenovatelné kontejnery",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Určuje, zda lze přejmenovat kontejnery. Změna se projeví po restartu.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Přejmenovatelná vozidla",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Určuje, zda lze přejmenovat vozidla. Změna se projeví po restartu.",
+	"Sandbox_RenameEverything_CanRenameItems": "Přejmenovatelné předměty",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Určuje, zda lze přejmenovat předměty. Změna se projeví po restartu."
 }

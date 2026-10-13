@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Opcions de canvi de nom",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Només els administradors poden canviar el nom dels elements",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Restringeix el canvi de nom dels elements als administradors en multijugador. Deixa-ho sense canvis per a un sol jugador.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Només els administradors poden canviar el nom dels vehicles",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Restringeix el canvi de nom dels vehicles als administradors en multijugador. Deixa-ho sense canvis per a un sol jugador.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Calen claus per canviar el nom dels vehicles",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Els jugadors només podran canviar el nom dels vehicles si tenen les claus o si les claus són al contacte. Només funciona en multijugador.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Contenidors reanomenables",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Defineix si es pot canviar el nom dels contenidors. Cal reiniciar perquè tingui efecte.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Vehicles reanomenables",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Defineix si es pot canviar el nom dels vehicles. Cal reiniciar perquè tingui efecte.",
+	"Sandbox_RenameEverything_CanRenameItems": "Elements reanomenables",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Defineix si es pot canviar el nom dels elements. Cal reiniciar perquè tingui efecte."
 }

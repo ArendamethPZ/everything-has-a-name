@@ -1,9 +1,10 @@
 {
- "ContextMenu_renameButton": "Rename",
- "ContextMenu_renameStackButton": "Rename Stack",
- "ContextMenu_label_items": "Change Item Name",
- "ContextMenu_label_containers": "Change Container Name",
- "ContextMenu_label_vehicles": "Change Vehicle Name",
- "ContextMenu_unnamed": "Unnamed Vehicle",
- "ContextMenu_clickToRename": "Click to Rename"
+	"ContextMenu_renameButton": "Rename",
+	"ContextMenu_renameStackButton": "Rename Stack",
+	"ContextMenu_label_items": "Change Item Name",
+	"ContextMenu_label_containers": "Change Container Name",
+	"ContextMenu_label_vehicles": "Change Vehicle Name",
+	"ContextMenu_unnamed": "Unnamed Vehicle",
+	"ContextMenu_clickToRename": "Click to Rename",
+	"ContextMenu_renameMainInventoryOnly": "Items in multiplayer can be renamed only while in main inventory"
 }

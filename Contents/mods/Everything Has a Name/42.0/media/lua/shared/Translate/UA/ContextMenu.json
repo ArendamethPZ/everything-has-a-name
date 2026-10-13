@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Ïåðåéìåíóâàòè",
- "ContextMenu_label_items": "Çì³íèòè íàçâó åëåìåíòà"
+	"ContextMenu_renameButton": "Перейменувати",
+	"ContextMenu_renameStackButton": "Перейменувати стос",
+	"ContextMenu_label_items": "Змінити назву елемента",
+	"ContextMenu_label_containers": "Змінити назву контейнера",
+	"ContextMenu_label_vehicles": "Змінити назву транспорту",
+	"ContextMenu_unnamed": "Транспорт без назви",
+	"ContextMenu_clickToRename": "Натисніть, щоб перейменувати",
+	"ContextMenu_renameMainInventoryOnly": "У мережевій грі предмети можна перейменовувати лише в основному інвентарі"
 }

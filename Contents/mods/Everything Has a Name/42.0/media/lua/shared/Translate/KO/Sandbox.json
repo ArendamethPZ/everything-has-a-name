@@ -1,0 +1,15 @@
+{
+	"Sandbox_RenameEverything_RenameOptions": "이름 바꾸기",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "관리자만 아이템 이름 바꾸기를 할 수 있게 변경하기",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "관리자만 아이템 이름 바꾸기를 할 수 있도록 제한합니다. 싱글플레이에서는 바뀌지 않습니다.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "관리자만 차량 이름 바꾸기를 할 수 있게 변경하기",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "관리자만 차량 이름 바꾸기를 할 수 있도록 제한합니다. 싱글플레이에서는 바뀌지 않습니다.",
+	"Sandbox_RenameEverything_MustHaveKeys": "차량 이름 바꾸기를 하려면 차량 열쇠가 필요하도록 변경하기",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "차량에 열쇠가 꽂혀 있거나 플레이어가 열쇠를 소지하고 있어야 차량의 이름을 변경할 수 있습니다. 멀티플레이에서만 작동합니다.",
+	"Sandbox_RenameEverything_CanRenameContainers": "컨테이너 이름 바꾸기 허용",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "컨테이너의 이름을 바꿀 수 있는지 여부입니다. 적용하려면 다시 시작해야 합니다.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "차량 이름 바꾸기 허용",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "차량의 이름을 바꿀 수 있는지 여부입니다. 적용하려면 다시 시작해야 합니다.",
+	"Sandbox_RenameEverything_CanRenameItems": "아이템 이름 바꾸기 허용",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "아이템의 이름을 바꿀 수 있는지 여부입니다. 적용하려면 다시 시작해야 합니다."
+}

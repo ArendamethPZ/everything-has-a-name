@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Mga Opsyon sa Pagpapalit ng Pangalan",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Admin lang ang makakapagpalit ng pangalan ng item",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Nililimitahan sa mga admin ang pagpapalit ng pangalan ng item sa multiplayer. Huwag baguhin para sa singleplayer.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Admin lang ang makakapagpalit ng pangalan ng sasakyan",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Nililimitahan sa mga admin ang pagpapalit ng pangalan ng sasakyan sa multiplayer. Huwag baguhin para sa singleplayer.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Kailangan ng susi para palitan ang pangalan ng sasakyan",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Mapapalitan lang ng mga manlalaro ang pangalan ng sasakyan kung hawak nila ang susi o nakasuksok ang susi sa ignition. Gumagana lang sa multiplayer.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Mapapalitan ang Pangalan ng Lalagyan",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Kung maaari bang palitan ang pangalan ng mga lalagyan. Kailangan ng restart para magkabisa.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Mapapalitan ang Pangalan ng Sasakyan",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Kung maaari bang palitan ang pangalan ng mga sasakyan. Kailangan ng restart para magkabisa.",
+	"Sandbox_RenameEverything_CanRenameItems": "Mapapalitan ang Pangalan ng Item",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Kung maaari bang palitan ang pangalan ng mga item. Kailangan ng restart para magkabisa."
 }

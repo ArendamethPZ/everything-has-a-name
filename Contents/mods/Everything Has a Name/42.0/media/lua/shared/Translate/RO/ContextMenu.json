@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Redenumiți",
- "ContextMenu_label": "Schimbați numele articolului"
+	"ContextMenu_renameButton": "Redenumiți",
+	"ContextMenu_renameStackButton": "Redenumiți grupul",
+	"ContextMenu_label_items": "Schimbați numele articolului",
+	"ContextMenu_label_containers": "Schimbați numele containerului",
+	"ContextMenu_label_vehicles": "Schimbați numele vehiculului",
+	"ContextMenu_unnamed": "Vehicul fără nume",
+	"ContextMenu_clickToRename": "Faceți clic pentru a redenumi",
+	"ContextMenu_renameMainInventoryOnly": "În multiplayer, obiectele pot fi redenumite doar cât timp se află în inventarul principal"
 }

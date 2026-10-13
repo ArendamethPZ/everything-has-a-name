@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Opsi Penggantian Nama",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Hanya admin yang dapat mengganti nama barang",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Membatasi penggantian nama barang hanya untuk admin di multiplayer. Biarkan tidak berubah untuk singleplayer.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Hanya admin yang dapat mengganti nama kendaraan",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Membatasi penggantian nama kendaraan hanya untuk admin di multiplayer. Biarkan tidak berubah untuk singleplayer.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Kunci diperlukan untuk mengganti nama kendaraan",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Pemain hanya dapat mengganti nama kendaraan jika memiliki kuncinya atau kunci berada di kontak. Hanya berfungsi di multiplayer.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Wadah Dapat Diganti Namanya",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Menentukan apakah wadah dapat diganti namanya. Perlu memulai ulang agar berlaku.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Kendaraan Dapat Diganti Namanya",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Menentukan apakah kendaraan dapat diganti namanya. Perlu memulai ulang agar berlaku.",
+	"Sandbox_RenameEverything_CanRenameItems": "Barang Dapat Diganti Namanya",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Menentukan apakah barang dapat diganti namanya. Perlu memulai ulang agar berlaku."
 }

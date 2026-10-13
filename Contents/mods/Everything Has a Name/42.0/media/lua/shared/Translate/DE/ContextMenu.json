@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Umbenennen",
- "ContextMenu_label_items": "Ändern Sie den Artikelnamen"
+	"ContextMenu_renameButton": "Umbenennen",
+	"ContextMenu_renameStackButton": "Stapel umbenennen",
+	"ContextMenu_label_items": "Gegenstandsnamen ändern",
+	"ContextMenu_label_containers": "Behälternamen ändern",
+	"ContextMenu_label_vehicles": "Fahrzeugnamen ändern",
+	"ContextMenu_unnamed": "Unbenanntes Fahrzeug",
+	"ContextMenu_clickToRename": "Zum Umbenennen klicken",
+	"ContextMenu_renameMainInventoryOnly": "Im Mehrspielermodus können Gegenstände nur umbenannt werden, solange sie sich im Hauptinventar befinden"
 }

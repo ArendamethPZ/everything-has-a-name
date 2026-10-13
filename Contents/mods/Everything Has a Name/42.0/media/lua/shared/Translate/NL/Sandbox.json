@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Opties voor hernoemen",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Alleen admins kunnen items hernoemen",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Beperkt het hernoemen van items tot admins in multiplayer. Laat ongewijzigd voor singleplayer.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Alleen admins kunnen voertuigen hernoemen",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Beperkt het hernoemen van voertuigen tot admins in multiplayer. Laat ongewijzigd voor singleplayer.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Sleutels nodig om voertuigen te hernoemen",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Spelers kunnen voertuigen alleen hernoemen als ze de sleutels hebben of als de sleutels in het contact zitten. Werkt alleen in multiplayer.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Containers hernoembaar",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Of het mogelijk is om containers te hernoemen. Vereist een herstart.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Voertuigen hernoembaar",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Of het mogelijk is om voertuigen te hernoemen. Vereist een herstart.",
+	"Sandbox_RenameEverything_CanRenameItems": "Items hernoembaar",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Of het mogelijk is om items te hernoemen. Vereist een herstart."
 }

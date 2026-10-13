@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Yeniden isimlendirmek",
- "ContextMenu_label_items": "Öğe Adını Değiştir"
+	"ContextMenu_renameButton": "Adını Değiştir",
+	"ContextMenu_renameStackButton": "Tümünün Adını Değiştir",
+	"ContextMenu_label_items": "Eşyanın Adını Değiştir",
+	"ContextMenu_label_containers": "Deponun Adını Değiştir",
+	"ContextMenu_label_vehicles": "Aracın Adını Değiştir",
+	"ContextMenu_unnamed": "İsimsiz Araç",
+	"ContextMenu_clickToRename": "Adını Değiştirmek için tıkla",
+	"ContextMenu_renameMainInventoryOnly": "Çok oyunculu modda eşyaların adı yalnızca ana envanterdeyken değiştirilebilir"
 }

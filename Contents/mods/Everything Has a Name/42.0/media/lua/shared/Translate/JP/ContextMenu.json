@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "名前を変更",
- "ContextMenu_label_items": "アイテム名の変更"
+	"ContextMenu_renameButton": "名前を変更",
+	"ContextMenu_renameStackButton": "スタックの名前を変更",
+	"ContextMenu_label_items": "アイテム名の変更",
+	"ContextMenu_label_containers": "コンテナ名の変更",
+	"ContextMenu_label_vehicles": "車両名の変更",
+	"ContextMenu_unnamed": "名前のない車両",
+	"ContextMenu_clickToRename": "クリックして名前を変更",
+	"ContextMenu_renameMainInventoryOnly": "マルチプレイでは、メインインベントリ内にあるアイテムのみ名前を変更できます"
 }

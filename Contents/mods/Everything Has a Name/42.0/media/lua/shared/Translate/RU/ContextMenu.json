@@ -1,7 +1,10 @@
 {
- "ContextMenu_renameButton": "Переименовать",
- "ContextMenu_label_items": "Изменить имя предмета",
- "ContextMenu_label_vehicles": "Изменить имя автомобиля",
- "ContextMenu_unnamed": "Безымянный автомобиль",
- "ContextMenu_clickToRename": "Нажмите чтобы переименовать"
+	"ContextMenu_renameButton": "Переименовать",
+	"ContextMenu_renameStackButton": "Переименовать стопку",
+	"ContextMenu_label_items": "Изменить имя предмета",
+	"ContextMenu_label_containers": "Изменить имя контейнера",
+	"ContextMenu_label_vehicles": "Изменить имя автомобиля",
+	"ContextMenu_unnamed": "Безымянный автомобиль",
+	"ContextMenu_clickToRename": "Нажмите, чтобы переименовать",
+	"ContextMenu_renameMainInventoryOnly": "В сетевой игре предметы можно переименовывать только в основном инвентаре"
 }

@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "ตัวเลือกการเปลี่ยนชื่อ",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "เฉพาะแอดมินเท่านั้นที่เปลี่ยนชื่อไอเทมได้",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "จำกัดการเปลี่ยนชื่อไอเทมให้เฉพาะแอดมินในโหมดผู้เล่นหลายคน ไม่ต้องเปลี่ยนสำหรับโหมดผู้เล่นคนเดียว",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "เฉพาะแอดมินเท่านั้นที่เปลี่ยนชื่อยานพาหนะได้",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "จำกัดการเปลี่ยนชื่อยานพาหนะให้เฉพาะแอดมินในโหมดผู้เล่นหลายคน ไม่ต้องเปลี่ยนสำหรับโหมดผู้เล่นคนเดียว",
+	"Sandbox_RenameEverything_MustHaveKeys": "ต้องมีกุญแจเพื่อเปลี่ยนชื่อยานพาหนะ",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "ผู้เล่นจะเปลี่ยนชื่อยานพาหนะได้ก็ต่อเมื่อมีกุญแจ หรือกุญแจเสียบอยู่ที่สวิตช์สตาร์ท ใช้งานได้เฉพาะโหมดผู้เล่นหลายคน",
+	"Sandbox_RenameEverything_CanRenameContainers": "เปลี่ยนชื่อภาชนะได้",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "กำหนดว่าจะสามารถเปลี่ยนชื่อภาชนะได้หรือไม่ ต้องรีสตาร์ทเพื่อให้มีผล",
+	"Sandbox_RenameEverything_CanRenameVehicles": "เปลี่ยนชื่อยานพาหนะได้",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "กำหนดว่าจะสามารถเปลี่ยนชื่อยานพาหนะได้หรือไม่ ต้องรีสตาร์ทเพื่อให้มีผล",
+	"Sandbox_RenameEverything_CanRenameItems": "เปลี่ยนชื่อไอเทมได้",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "กำหนดว่าจะสามารถเปลี่ยนชื่อไอเทมได้หรือไม่ ต้องรีสตาร์ทเพื่อให้มีผล"
 }

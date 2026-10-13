@@ -1,9 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Opcjê zmiany nazw przedmiotów",
- "Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Tylko admini mog¹ zmieniaæ nazwy przedmiotów",
- "Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Tylko admini mog¹ zmieniaæ nazwy pojazdów",
- "Sandbox_RenameEverything_MustHaveKeys": "By zmieniæ nazwê pojazdu, potrzêbne s¹ kluczê",
- "Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Sprawia, ¿e tylko admini mog¹ zmieniaæ nazwy przedmiotów w trybie multiplayer. Nie zmeniaj, jeœli grasz w trybie singleplayer.",
- "Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Sprawia, ¿e tylko admini mog¹ zmieniaæ nazwy pojazdów w trybie multiplayer. Nie zmeniaj, jeœli grasz w trybie singleplayer.",
- "Sandbox_RenameEverything_MustHaveKeys_tooltip": "Graczê mog¹ zmieniaæ nazwy pojazdów, jeœli maj¹ kluczê, albo klucz jest w stacyjce. Dzia³a tylko w trybie multiplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Opcje zmiany nazw",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Tylko admini mogą zmieniać nazwy przedmiotów",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Sprawia, że tylko admini mogą zmieniać nazwy przedmiotów w trybie wieloosobowym. Nie zmieniaj, jeśli grasz w trybie jednoosobowym.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Tylko admini mogą zmieniać nazwy pojazdów",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Sprawia, że tylko admini mogą zmieniać nazwy pojazdów w trybie wieloosobowym. Nie zmieniaj, jeśli grasz w trybie jednoosobowym.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Do zmiany nazwy pojazdu potrzebne są klucze",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Gracze mogą zmieniać nazwy pojazdów, jeśli mają klucze albo klucz jest w stacyjce. Działa tylko w trybie wieloosobowym.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Pojemniki z możliwością zmiany nazwy",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Określa, czy można zmieniać nazwy pojemników. Wymaga restartu, aby zadziałać.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Pojazdy z możliwością zmiany nazwy",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Określa, czy można zmieniać nazwy pojazdów. Wymaga restartu, aby zadziałać.",
+	"Sandbox_RenameEverything_CanRenameItems": "Przedmioty z możliwością zmiany nazwy",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Określa, czy można zmieniać nazwy przedmiotów. Wymaga restartu, aby zadziałać."
 }

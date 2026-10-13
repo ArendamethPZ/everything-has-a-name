@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "เปลี่ยนชื่อ",
- "ContextMenu_label_items": "เปลี่ยนชื่อรายการ"
+	"ContextMenu_renameButton": "เปลี่ยนชื่อ",
+	"ContextMenu_renameStackButton": "เปลี่ยนชื่อทั้งกอง",
+	"ContextMenu_label_items": "เปลี่ยนชื่อรายการ",
+	"ContextMenu_label_containers": "เปลี่ยนชื่อภาชนะ",
+	"ContextMenu_label_vehicles": "เปลี่ยนชื่อยานพาหนะ",
+	"ContextMenu_unnamed": "ยานพาหนะที่ไม่มีชื่อ",
+	"ContextMenu_clickToRename": "คลิกเพื่อเปลี่ยนชื่อ",
+	"ContextMenu_renameMainInventoryOnly": "ในโหมดผู้เล่นหลายคน สามารถเปลี่ยนชื่อไอเทมได้เฉพาะเมื่ออยู่ในช่องเก็บของหลักเท่านั้น"
 }

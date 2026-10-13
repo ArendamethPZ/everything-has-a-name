@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "改名",
- "ContextMenu_label_items": "更改项目名称"
+	"ContextMenu_renameButton": "改名",
+	"ContextMenu_renameStackButton": "批量改名",
+	"ContextMenu_label_items": "更改项目名称",
+	"ContextMenu_label_containers": "更改容器名称",
+	"ContextMenu_label_vehicles": "更改载具名称",
+	"ContextMenu_unnamed": "未命名载具",
+	"ContextMenu_clickToRename": "点击以改名",
+	"ContextMenu_renameMainInventoryOnly": "多人游戏中，只有在主物品栏内的物品才能改名"
 }

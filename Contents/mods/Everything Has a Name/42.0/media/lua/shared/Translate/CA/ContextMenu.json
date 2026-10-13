@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Canvia el nom",
- "ContextMenu_label_items": "Canvia el nom de l'element"
+	"ContextMenu_renameButton": "Canvia el nom",
+	"ContextMenu_renameStackButton": "Canvia el nom de la pila",
+	"ContextMenu_label_items": "Canvia el nom de l'element",
+	"ContextMenu_label_containers": "Canvia el nom del contenidor",
+	"ContextMenu_label_vehicles": "Canvia el nom del vehicle",
+	"ContextMenu_unnamed": "Vehicle sense nom",
+	"ContextMenu_clickToRename": "Fes clic per canviar el nom",
+	"ContextMenu_renameMainInventoryOnly": "En multijugador, els elements només es poden reanomenar mentre són a l'inventari principal"
 }

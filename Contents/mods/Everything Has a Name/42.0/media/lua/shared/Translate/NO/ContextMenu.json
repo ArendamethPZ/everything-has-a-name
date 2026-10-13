@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Gi nytt navn",
- "ContextMenu_label_items": "Endre varenavn"
+	"ContextMenu_renameButton": "Gi nytt navn",
+	"ContextMenu_renameStackButton": "Gi stabelen nytt navn",
+	"ContextMenu_label_items": "Endre varenavn",
+	"ContextMenu_label_containers": "Endre beholdernavn",
+	"ContextMenu_label_vehicles": "Endre kjøretøynavn",
+	"ContextMenu_unnamed": "Kjøretøy uten navn",
+	"ContextMenu_clickToRename": "Klikk for å gi nytt navn",
+	"ContextMenu_renameMainInventoryOnly": "I flerspiller kan gjenstander bare gis nytt navn mens de er i hovedinventaret"
 }

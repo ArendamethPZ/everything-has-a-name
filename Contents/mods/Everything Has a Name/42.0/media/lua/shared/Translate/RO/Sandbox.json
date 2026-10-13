@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Opțiuni de redenumire",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Doar administratorii pot redenumi obiecte",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Restricționează redenumirea obiectelor la administratori în multiplayer. Lăsați neschimbat pentru singleplayer.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Doar administratorii pot redenumi vehicule",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Restricționează redenumirea vehiculelor la administratori în multiplayer. Lăsați neschimbat pentru singleplayer.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Sunt necesare chei pentru a redenumi vehiculele",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Jucătorii pot redenumi vehiculele doar dacă au cheile sau dacă cheile sunt în contact. Funcționează doar în multiplayer.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Containere redenumibile",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Stabilește dacă containerele pot fi redenumite. Necesită repornire pentru a avea efect.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Vehicule redenumibile",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Stabilește dacă vehiculele pot fi redenumite. Necesită repornire pentru a avea efect.",
+	"Sandbox_RenameEverything_CanRenameItems": "Obiecte redenumibile",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Stabilește dacă obiectele pot fi redenumite. Necesită repornire pentru a avea efect."
 }

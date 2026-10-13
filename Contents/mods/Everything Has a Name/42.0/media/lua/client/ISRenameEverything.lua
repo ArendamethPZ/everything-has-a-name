@@ -14,6 +14,13 @@ ISRenameEverything.isRenameable = function (item)
 	return isRenameable
 end
 
+-- Items on the ground (or otherwise outside a container) have no ItemContainer
+ISRenameEverything.getSimilarItems = function (item)
+	local container = item and item:getContainer()
+	if not container then return nil end
+	return container:getItemsFromType(item:getType())
+end
+
 ISRenameEverything.createMenu = function (player, context, items)
 	local vars = SandboxVars.EverythingHasAName
 	if not vars.CanRenameItems then return end
@@ -42,8 +49,8 @@ ISRenameEverything.createMenu = function (player, context, items)
 					)
 
 					-- Check if the item is a stack and if true, add option to rename whole stack
-					local similarItems = itemToRename:getContainer():getItemsFromType(itemToRename:getType())
-					if similarItems:size() > 1 then
+					local similarItems = ISRenameEverything.getSimilarItems(itemToRename)
+					if similarItems and similarItems:size() > 1 then
 						context:addOption(
 							getText("ContextMenu_renameStackButton"), similarItems, ISRenameEverything.onRenameStack,
 							player
@@ -56,24 +63,23 @@ ISRenameEverything.createMenu = function (player, context, items)
 						)
 
 						-- Check if the item is a stack and if true, add option to rename whole stack
-						local similarItems = itemToRename:getContainer():getItemsFromType(itemToRename
-								:getType())
+						local similarItems = ISRenameEverything.getSimilarItems(itemToRename)
 
-						if similarItems:size() > 1 then
+						if similarItems and similarItems:size() > 1 then
 							local renameStackButton = context:addOption(
-								"Rename Stack", similarItems, ISRenameEverything.onRenameStack, player
+								getText("ContextMenu_renameStackButton"), similarItems, ISRenameEverything.onRenameStack, player
 							)
 
 							renameStackButton.notAvailable = true
 							local renameStackButtontooltip = ISToolTip:new()
 							renameStackButtontooltip:initialise()
 							renameStackButtontooltip:setVisible(false)
-							renameStackButtontooltip.description = "<RED>Items in multiplayer can be renamed only while in main inventory"
+							renameStackButtontooltip.description = "<RED>" .. getText("ContextMenu_renameMainInventoryOnly")
 							renameStackButton.toolTip = renameStackButtontooltip
 						end
 
 						renameButton.notAvailable = true
-						local renameButtonDesc = "<RED>Items in multiplayer can be renamed only while in main inventory"
+						local renameButtonDesc = "<RED>" .. getText("ContextMenu_renameMainInventoryOnly")
 						local renameButtontooltip = ISToolTip:new()
 						renameButtontooltip:initialise()
 						renameButtontooltip:setVisible(false)
@@ -85,9 +91,9 @@ ISRenameEverything.createMenu = function (player, context, items)
 						)
 
 						-- Check if the item is a stack and if true, add option to rename whole stack
-						local similarItems = itemToRename:getContainer():getItemsFromType(itemToRename:getType())
-						if similarItems:size() > 1 then
-							context:addOption("Rename Stack", similarItems, ISRenameEverything.onRenameStack, player)
+						local similarItems = ISRenameEverything.getSimilarItems(itemToRename)
+						if similarItems and similarItems:size() > 1 then
+							context:addOption(getText("ContextMenu_renameStackButton"), similarItems, ISRenameEverything.onRenameStack, player)
 						end
 					end
 				end
@@ -100,9 +106,9 @@ ISRenameEverything.createMenu = function (player, context, items)
 				)
 
 				-- Check if the item is a stack and if true, add option to rename whole stack
-				local similarItems = itemToRename:getContainer():getItemsFromType(itemToRename:getType())
-				if similarItems:size() > 1 then
-					context:addOption("Rename Stack", similarItems, ISRenameEverything.onRenameStack, player)
+				local similarItems = ISRenameEverything.getSimilarItems(itemToRename)
+				if similarItems and similarItems:size() > 1 then
+					context:addOption(getText("ContextMenu_renameStackButton"), similarItems, ISRenameEverything.onRenameStack, player)
 				end
 			else -- The player is playing multiplayer
 				if itemToRename:getContainer() and itemToRename:getContainer() ~= playerObj:getInventory() then -- Player is trying to rename an item that is not in his inventory
@@ -111,24 +117,23 @@ ISRenameEverything.createMenu = function (player, context, items)
 					)
 
 					-- Check if the item is a stack and if true, add option to rename whole stack
-					local similarItems = itemToRename:getContainer():getItemsFromType(itemToRename
-							:getType())
+					local similarItems = ISRenameEverything.getSimilarItems(itemToRename)
 
-					if similarItems:size() > 1 then
+					if similarItems and similarItems:size() > 1 then
 						local renameStackButton = context:addOption(
-							"Rename Stack", similarItems, ISRenameEverything.onRenameStack, player
+							getText("ContextMenu_renameStackButton"), similarItems, ISRenameEverything.onRenameStack, player
 						)
 
 						renameStackButton.notAvailable = true
 						local renameStackButtontooltip = ISToolTip:new()
 						renameStackButtontooltip:initialise()
 						renameStackButtontooltip:setVisible(false)
-						renameStackButtontooltip.description = "<RED>Items in multiplayer can be renamed only while in main inventory"
+						renameStackButtontooltip.description = "<RED>" .. getText("ContextMenu_renameMainInventoryOnly")
 						renameStackButton.toolTip = renameStackButtontooltip
 					end
 
 					renameButton.notAvailable = true
-					local renameButtonDesc = "<RED>Items in multiplayer can be renamed only while in main inventory"
+					local renameButtonDesc = "<RED>" .. getText("ContextMenu_renameMainInventoryOnly")
 					local renameButtontooltip = ISToolTip:new()
 					renameButtontooltip:initialise()
 					renameButtontooltip:setVisible(false)
@@ -140,9 +145,9 @@ ISRenameEverything.createMenu = function (player, context, items)
 					)
 
 					-- Check if the item is a stack and if true, add option to rename whole stack
-					local similarItems = itemToRename:getContainer():getItemsFromType(itemToRename:getType())
-					if similarItems:size() > 1 then
-						context:addOption("Rename Stack", similarItems, ISRenameEverything.onRenameStack, player)
+					local similarItems = ISRenameEverything.getSimilarItems(itemToRename)
+					if similarItems and similarItems:size() > 1 then
+						context:addOption(getText("ContextMenu_renameStackButton"), similarItems, ISRenameEverything.onRenameStack, player)
 					end
 				end
 			end
@@ -198,7 +203,7 @@ ISRenameEverything.onRenameStack = function (items, player)
 	end
 
 	local modal = ISTextBox:new(
-		0, 0, 280, 180, "Rename Stack", firstItemName, nil,
+		0, 0, 280, 180, getText("ContextMenu_renameStackButton"), firstItemName, nil,
 		ISRenameEverything
 			.onRenameStackClick,
 		player, getSpecificPlayer(player), items

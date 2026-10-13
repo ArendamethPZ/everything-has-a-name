@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Ïàðàìåòðè ïåðåéìåíóâàííÿ ïðåäìåò³â",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Ò³ëüêè àäì³í³ñòðàòîðè ìîæóòü ïåðåéìåíîâóâàòè ïðåäìåòè",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Îáìåæóº ïåðåéìåíóâàííÿ ïðåäìåò³â äëÿ àäì³í³ñòðàòîð³â ó áàãàòîêîðèñòóâàöüê³é ãð³. Çàëèøòå áåç çì³í äëÿ îäèíî÷íî¿ ãðè."
+	"Sandbox_RenameEverything_RenameOptions": "Параметри перейменування",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Тільки адміністратори можуть перейменовувати предмети",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Обмежує перейменування предметів для адміністраторів у багатокористувацькій грі. Залиште без змін для одиночної гри.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Тільки адміністратори можуть перейменовувати транспорт",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Обмежує перейменування транспорту для адміністраторів у багатокористувацькій грі. Залиште без змін для одиночної гри.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Для перейменування транспорту потрібні ключі",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Гравці зможуть перейменовувати транспорт лише якщо мають ключі від нього або ключі в замку запалювання. Працює лише в багатокористувацькій грі.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Перейменування контейнерів",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Чи можна перейменовувати контейнери. Для застосування потрібен перезапуск.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Перейменування транспорту",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Чи можна перейменовувати транспорт. Для застосування потрібен перезапуск.",
+	"Sandbox_RenameEverything_CanRenameItems": "Перейменування предметів",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Чи можна перейменовувати предмети. Для застосування потрібен перезапуск."
 }

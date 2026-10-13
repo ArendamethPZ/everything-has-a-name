@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Renommer",
- "ContextMenu_label_items": "Modifier le nom de l'élément"
+	"ContextMenu_renameButton": "Renommer",
+	"ContextMenu_renameStackButton": "Renommer la pile",
+	"ContextMenu_label_items": "Modifier le nom de l'objet",
+	"ContextMenu_label_containers": "Modifier le nom du conteneur",
+	"ContextMenu_label_vehicles": "Modifier le nom du véhicule",
+	"ContextMenu_unnamed": "Véhicule sans nom",
+	"ContextMenu_clickToRename": "Cliquez pour renommer",
+	"ContextMenu_renameMainInventoryOnly": "En multijoueur, les objets ne peuvent être renommés que depuis l'inventaire principal"
 }

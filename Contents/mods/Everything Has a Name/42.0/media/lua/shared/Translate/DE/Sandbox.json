@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Optionen zum Umbenennen",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Nur Admins können Gegenstände umbenennen",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Beschränkt das Umbenennen von Gegenständen im Mehrspielermodus auf Admins. Im Einzelspielermodus unverändert lassen.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Nur Admins können Fahrzeuge umbenennen",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Beschränkt das Umbenennen von Fahrzeugen im Mehrspielermodus auf Admins. Im Einzelspielermodus unverändert lassen.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Schlüssel zum Umbenennen von Fahrzeugen nötig",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Spieler können Fahrzeuge nur umbenennen, wenn sie die Schlüssel besitzen oder die Schlüssel im Zündschloss stecken. Funktioniert nur im Mehrspielermodus.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Behälter umbenennbar",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Legt fest, ob Behälter umbenannt werden können. Erfordert einen Neustart.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Fahrzeuge umbenennbar",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Legt fest, ob Fahrzeuge umbenannt werden können. Erfordert einen Neustart.",
+	"Sandbox_RenameEverything_CanRenameItems": "Gegenstände umbenennbar",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Legt fest, ob Gegenstände umbenannt werden können. Erfordert einen Neustart."
 }

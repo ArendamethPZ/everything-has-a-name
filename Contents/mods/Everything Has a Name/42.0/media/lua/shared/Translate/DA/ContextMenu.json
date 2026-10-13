@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Omdøb",
- "ContextMenu_label_items": "Skift varenavn"
+	"ContextMenu_renameButton": "Omdøb",
+	"ContextMenu_renameStackButton": "Omdøb stak",
+	"ContextMenu_label_items": "Skift varenavn",
+	"ContextMenu_label_containers": "Skift beholdernavn",
+	"ContextMenu_label_vehicles": "Skift køretøjsnavn",
+	"ContextMenu_unnamed": "Unavngivet køretøj",
+	"ContextMenu_clickToRename": "Klik for at omdøbe",
+	"ContextMenu_renameMainInventoryOnly": "I multiplayer kan genstande kun omdøbes, mens de er i hovedinventaret"
 }

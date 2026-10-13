@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Átnevezés",
- "ContextMenu_label_items": "Az elem nevének módosítása"
+	"ContextMenu_renameButton": "Átnevezés",
+	"ContextMenu_renameStackButton": "Köteg átnevezése",
+	"ContextMenu_label_items": "Az elem nevének módosítása",
+	"ContextMenu_label_containers": "A tároló nevének módosítása",
+	"ContextMenu_label_vehicles": "A jármű nevének módosítása",
+	"ContextMenu_unnamed": "Névtelen jármű",
+	"ContextMenu_clickToRename": "Kattints az átnevezéshez",
+	"ContextMenu_renameMainInventoryOnly": "Többjátékos módban a tárgyak csak akkor nevezhetők át, ha a fő készletben vannak"
 }

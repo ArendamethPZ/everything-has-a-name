@@ -1,4 +1,10 @@
 {
- "ContextMenu_renameButton": "Hernoemen",
- "ContextMenu_label_items": "Itemnaam wijzigen"
+	"ContextMenu_renameButton": "Hernoemen",
+	"ContextMenu_renameStackButton": "Stapel hernoemen",
+	"ContextMenu_label_items": "Itemnaam wijzigen",
+	"ContextMenu_label_containers": "Containernaam wijzigen",
+	"ContextMenu_label_vehicles": "Voertuignaam wijzigen",
+	"ContextMenu_unnamed": "Naamloos voertuig",
+	"ContextMenu_clickToRename": "Klik om te hernoemen",
+	"ContextMenu_renameMainInventoryOnly": "In multiplayer kunnen items alleen worden hernoemd terwijl ze in de hoofdinventaris zitten"
 }

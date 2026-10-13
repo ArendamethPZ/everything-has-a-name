@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Alternativer for omdøping",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Bare administratorer kan gi gjenstander nytt navn",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Begrenser omdøping av gjenstander til administratorer i flerspiller. La være uendret for enkeltspiller.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Bare administratorer kan gi kjøretøy nytt navn",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Begrenser omdøping av kjøretøy til administratorer i flerspiller. La være uendret for enkeltspiller.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Nøkler kreves for å gi kjøretøy nytt navn",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Spillere kan bare gi et kjøretøy nytt navn hvis de har nøklene eller nøklene sitter i tenningen. Fungerer bare i flerspiller.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Beholdere kan gis nytt navn",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Om det er mulig å gi beholdere nytt navn. Krever omstart for å tre i kraft.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Kjøretøy kan gis nytt navn",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Om det er mulig å gi kjøretøy nytt navn. Krever omstart for å tre i kraft.",
+	"Sandbox_RenameEverything_CanRenameItems": "Gjenstander kan gis nytt navn",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Om det er mulig å gi gjenstander nytt navn. Krever omstart for å tre i kraft."
 }

@@ -1,5 +1,15 @@
 {
- "Sandbox_RenameEverything_RenameOptions": "Items Renaming Options",
- "Sandbox_RenameEverything_OnlyAdminCanRename": "Only admins can rename items",
- "Sandbox_RenameEverything_OnlyAdminCanRename_tooltip": "Restricts renaming items to admins in multiplayer. Leave unchanged for singleplayer."
+	"Sandbox_RenameEverything_RenameOptions": "Uudelleennimeämisen asetukset",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems": "Vain ylläpitäjät voivat nimetä kohteita uudelleen",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameItems_tooltip": "Rajoittaa kohteiden uudelleennimeämisen ylläpitäjille moninpelissä. Jätä muuttamatta yksinpelissä.",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles": "Vain ylläpitäjät voivat nimetä ajoneuvoja uudelleen",
+	"Sandbox_RenameEverything_OnlyAdminCanRenameVehicles_tooltip": "Rajoittaa ajoneuvojen uudelleennimeämisen ylläpitäjille moninpelissä. Jätä muuttamatta yksinpelissä.",
+	"Sandbox_RenameEverything_MustHaveKeys": "Avaimet tarvitaan ajoneuvon uudelleennimeämiseen",
+	"Sandbox_RenameEverything_MustHaveKeys_tooltip": "Pelaajat voivat nimetä ajoneuvon uudelleen vain, jos heillä on sen avaimet tai avaimet ovat virtalukossa. Toimii vain moninpelissä.",
+	"Sandbox_RenameEverything_CanRenameContainers": "Säiliöt voi nimetä uudelleen",
+	"Sandbox_RenameEverything_CanRenameContainers_tooltip": "Voiko säiliöitä nimetä uudelleen. Vaatii uudelleenkäynnistyksen.",
+	"Sandbox_RenameEverything_CanRenameVehicles": "Ajoneuvot voi nimetä uudelleen",
+	"Sandbox_RenameEverything_CanRenameVehicles_tooltip": "Voiko ajoneuvoja nimetä uudelleen. Vaatii uudelleenkäynnistyksen.",
+	"Sandbox_RenameEverything_CanRenameItems": "Kohteet voi nimetä uudelleen",
+	"Sandbox_RenameEverything_CanRenameItems_tooltip": "Voiko kohteita nimetä uudelleen. Vaatii uudelleenkäynnistyksen."
 }

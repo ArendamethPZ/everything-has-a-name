@@ -1,3 +1,4 @@
+require "ArendamethUtils"
 ISRenameEverything = ISRenameEverything or {};
 
 local original_ISMoveableSpriteProps_getInfoPanelFlagsGeneral = ISMoveableSpriteProps.getInfoPanelFlagsGeneral
